@@ -10,6 +10,7 @@ import { NextRequest, NextResponse } from "next/server";
 // 3. if DB is connected && check if user exist
 // 4. create user
 // 5. return success
+// 6. check again
 
 export async function POST(request : NextRequest) {
 
