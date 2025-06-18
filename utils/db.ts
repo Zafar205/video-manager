@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 // The exclamation mark (!) tells TypeScript that this value will not be null or undefined
 const MONGODB_URI = process.env.MONGODB_URI!;
 
-// Error handling to make sure the MongoDB URI is defined
+// Error handling to make sure the MongoDB URI is defined and proper
 if (!MONGODB_URI) {
   throw new Error("Please define mongo_uri in env variables");
 }
