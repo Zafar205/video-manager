@@ -7,7 +7,7 @@ import { NextRequest, NextResponse } from "next/server";
 // 5 steps
 // 1. get data from Frontend
 // 2. validation
-// 3. if DB is connected && check if user exist
+//  // 3. if DB is connected && check if user exist
 // 4. create user
 // 5. return success
 // 6. check again
